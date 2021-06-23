@@ -7,12 +7,12 @@ We develop a multi-target multi-branch supernet method, which not only retains t
 multi-branch structure of HRNet, but also finds the proper location for placing multi-head self-attention module. Our search algorithm is optimized towards multiple objectives (e.g., latency and mIoU) and capable of finding architectures on Pareto frontier with arbitrary number of branches in a single search. We further present a series of HRTransNet that searched for the best hybrid combination of light-weight convolution layers and memory-efficient self-attention layers between branches from different resolutions and fuse to high resolution for both efficiency and effectiveness.
 
 <p align="center">
-  <img src="images/intro.png" alt="intro" width="300"/></br>
+  <img src="images/intro.png" alt="intro" width="500"/></br>
   <span align="center">HRTNet search space</span>
 </p>
 
 <p align="center">
-  <img src="images/op.png" alt="intro" width="300"/></br>
+  <img src="images/op.png" alt="intro" width="400"/></br>
   <span align="center">HRTNet searchable modules</span>
 </p>
 
@@ -24,17 +24,17 @@ Highlights:
 
 ## Results
 <p align="center">
-  <img src="images/search.png" alt="intro" width="300"/></br>
+  <img src="images/search.png" alt="intro" width="800"/></br>
   <span align="center">HRTNet search results</span>
 </p>
 
 <p align="center">
-  <img src="images/hrtnet.png" alt="intro" width="300"/></br>
+  <img src="images/hrtnet.png" alt="intro" width="800"/></br>
   <span align="center">HRTNet models</span>
 </p>
 
 <p align="center">
-  <img src="images/results.png" alt="intro" width="300"/></br>
+  <img src="images/results.png" alt="intro" width="800"/></br>
   <span align="center">HRTNet results on Cityscapes</span>
 </p>
 
